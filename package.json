@@ -1,0 +1,9 @@
+{
+    "name": "cwp-22-1",
+    "author": "Egwinn",
+    "description": "The twenty first laboratory work on Cross Platform Programming: npm-пакеты",
+    "version": "0.0.1",
+    "repository": "https://github.com/Egwinn/cwp-22-1",
+    "dependencies": {
+    }
+}
