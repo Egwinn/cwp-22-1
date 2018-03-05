@@ -28,7 +28,7 @@ const Calculator = {
     },
 
     doOperation: (operator, x, y) => {
-        return Calculator.operations[operator](x, y);
+        return Calculator.operations[operator](y, x);
     },
 
     operations: {
