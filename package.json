@@ -2,7 +2,7 @@
   "name": "@egwinn/cwp-22-1",
   "author": "egwinn",
   "description": "My first npm-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Egwinn/cwp-22-1.git"
