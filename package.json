@@ -1,9 +1,20 @@
 {
-    "name": "cwp-22-1",
-    "author": "Egwinn",
-    "description": "My first npm-package",
-    "version": "0.0.1",
-    "repository": "https://github.com/Egwinn/cwp-22-1",
-    "dependencies": {
-    }
+  "name": "cwp-22-1",
+  "author": "Egwinn",
+  "description": "My first npm-package",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Egwinn/cwp-22-1.git"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/Egwinn/cwp-22-1/issues"
+  },
+  "homepage": "https://github.com/Egwinn/cwp-22-1#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
 }
