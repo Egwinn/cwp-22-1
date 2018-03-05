@@ -1,3 +1,6 @@
+const info = require('./package.json');
+console.log('Hello! I am ' + info.version);
+
 const Calculator = {
     calculate: (expression) => {
         let stack = [];
@@ -43,3 +46,8 @@ const Calculator = {
         return /[-\+\*\/]/.test(token);
     }
 }
+
+module.exports = (expression, message) => {
+    console.log(message);
+    return Calculator.calculate(expression);
+};
